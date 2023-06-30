@@ -1,0 +1,212 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "Mango.Services.ProductAPI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.ProductAPI/bin/Debug/net6.0/Mango.Services.ProductAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.ProductAPI",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Mango.Services.Identity",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.Identity/bin/Debug/net6.0/Mango.Services.Identity.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.Identity",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Mango.Services.ShoppingCartAPI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.ShoppingCartAPI/bin/Debug/net6.0/Mango.Services.ShoppingCartAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.ShoppingCartAPI",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Mango.Services.CouponAPI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.CouponAPI/bin/Debug/net6.0/Mango.Services.CouponAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.CouponAPI",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Mango.Services.OrderAPI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.OrderAPI/bin/Debug/net6.0/Mango.Services.OrderAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.OrderAPI",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Mango.Services.PaymentAPI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.PaymentAPI/bin/Debug/net6.0/Mango.Services.PaymentAPI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.PaymentAPI",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Mango.Services.Email",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.Email/bin/Debug/net6.0/Mango.Services.Email.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.Email",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "Mango.GatewaySolution",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.GatewaySolution/bin/Debug/net6.0/Mango.GatewaySolution.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.GatewaySolution",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request" :"launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Mango.Web/bin/Debug/net6.0/Mango.Web.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Web",
+            "stopAtEntry": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Mango.Web/Views/Home/Details.cshtml"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+
+    ],
+    "compounds": [
+        {
+            "name": "MangoRestaurantlaunch",
+            "configurations": [
+            "Mango.Services.ProductAPI",
+            "Mango.Services.Identity",
+            "Mango.Services.ShoppingCartAPI",
+            "Mango.Services.CouponAPI",
+            "Mango.Services.OrderAPI",
+            "Mango.Services.PaymentAPI",
+            "Mango.Services.Email",
+            "Mango.GatewaySolution",
+            ".NET Core Launch (web)"
+            ]
+        }
+    ]
+}

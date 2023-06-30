@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "Mango.Services.Identity",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Mango.Services.Identity/bin/Debug/net6.0/Mango.Services.Identity.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Mango.Services.Identity",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+
+    ]
+}
